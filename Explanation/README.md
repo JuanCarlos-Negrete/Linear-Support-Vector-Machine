@@ -18,7 +18,7 @@ Se puede usar para:
 ### Datos de ejemplo - Regularizacion [FERNANDO]
 > TODO: Tema
 
-### Truco del Kernel en SVM - Algunas aplicaciones(dar ejemplos en las aplicaciones) [AIDE]
+### Truco del Kernel en SVM - Algunas aplicaciones
 El propocito principal del SVM es el formar el hiperplano que maximiza el margen de separación entre clases, sin embargo hay veces en las que no hay forma 
 de encontrar una hiperplano que permita separar dos clases. En estos casos decimos que las clases no son linealmente separables. Para resolver este problema 
 podemos usar el truco del kernel.
