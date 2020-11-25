@@ -19,7 +19,29 @@ Se puede usar para:
 > TODO: Tema
 
 ### Truco del Kernel en SVM - Algunas aplicaciones(dar ejemplos en las aplicaciones) [AIDE]
-> TODO: Tema
+El propocito principal del SVM es el formar el hiperplano que maximiza el margen de separación entre clases, sin embargo hay veces en las que no hay forma 
+de encontrar una hiperplano que permita separar dos clases. En estos casos decimos que las clases no son linealmente separables. Para resolver este problema 
+podemos usar el truco del kernel.
+
+El truco del kernel consiste en inventar una dimensión nueva en la que podamos encontrar un hiperplano para separar las clases.
+
+Algunas aplicaciones de las máquinas de vectores de soporte
+Las máquinas de vectores de soporte eran muy utilizadas antes de la era del aprendizaje profundo. Para muchas aplicaciones se prefería el uso de SVM en lugar 
+de redes neuronales. La razón era que las matemáticas de los SVM se entiende muy bien y la propiedad de obtener el margen de separación máximo era muy atractivo. 
+
+Algunos casos de éxito de las máquinas de vectores de soporte son:
+
+-Reconocimiento óptico de caracteres
+    -El OCR(Reconocimiento optico de caracteres) es una tecnología transversal, aplicable en distintos ámbitos y sectores para la digitalización de formularios, 
+     documentos administrativos, informes, etc., ya que las ventajas que ofrece son comunes para todos ellos.
+     En el sector de la cultura, por ejemplo en el ámbito de la preservación del patrimonio, el OCR se aplica principalmente en los procesos de digitalización 
+     de documentos históricos, en soporte papel o microformas.
+-Detección de caras para que las cámaras digitales enfoquen correctamente
+-Filtros de spam para correo electrónico
+-Reconocimiento de imágenes a bordo de satélites 
+    -Ayuda a saber qué partes de una imagen tienen nubes, tierra, agua, hielo, etc.
+
+Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprendizaje y generalización que los SVM.
 
 ### Ventajas y desventajas. [MANUEL]
 > TODO: Tema
