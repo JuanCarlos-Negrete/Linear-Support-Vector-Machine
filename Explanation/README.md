@@ -1,6 +1,8 @@
 # Linear Support Vector Machine
 
-## TODO: Hoja de presentacion
+## Equipo #6:
+- 16210975 Luna Fuentes Fernando
+- 16212354 Hernandez Negrete Salma Fabel
 
 ### Descripción [SALMA]
 También son conocidas con el acrónimo SVM por sus siglas en inglés (Support Vector Machines). Se pueden usar tanto para regresión como para clasificación.
