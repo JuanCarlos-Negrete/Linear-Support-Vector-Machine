@@ -4,7 +4,9 @@
 - 16210975 Luna Fuentes Fernando
 - 16212354 Hernandez Negrete Salma Fabel
 
-### Descripción [SALMA]
+### Descripción
+
+<p style="text-align: justify;">
 También son conocidas con el acrónimo SVM por sus siglas en inglés (Support Vector Machines). Se pueden usar tanto para regresión como para clasificación.
 
 Son un conjunto de algoritmos de aprendizaje supervisado desarrollados por Vladimir Vapnik y su equipo en los laboratorios AT&T.
@@ -104,6 +106,10 @@ Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprend
 
 ### Fuentes de Información
 
->https://ccc.inaoep.mx/~emorales/Cursos/NvoAprend/Acetatos/svm2017.pdf
->https://www.iartificial.net/maquinas-de-vectores-de-soporte-svm/
->https://es.wikipedia.org/wiki/M%C3%A1quinas_de_vectores_de_soporte
+>Eduardo Morales, Jesus Gonzalez, Hugo Jair Escalante. (2017). Máquinas de Soporte Vectorial. 26/11/2020, de INAOE Sitio web: https://ccc.inaoep.mx/~emorales/Cursos/NvoAprend/Acetatos/svm2017.pdf
+
+>Jose Martinez Heras. (28/05/2019). Máquinas de Vectores de Soporte (SVM). 26/11/2020, de iartificial.net Sitio web: https://www.iartificial.net/maquinas-de-vectores-de-soporte-svm/
+
+>---. (2020). Máquinas de vectores de soporte. 26/11/2020, de Wikipedia Sitio web: https://es.wikipedia.org/wiki/M%C3%A1quinas_de_vectores_de_soporte
+
+</p>
