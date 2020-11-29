@@ -61,8 +61,22 @@ Algunos casos de éxito de las máquinas de vectores de soporte son:
 
 Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprendizaje y generalización que los SVM.
 
-### Ventajas y desventajas. [MANUEL]
-> TODO: Tema
+<!-- START CRUZ -->
+### Ventajas y desventajas de SVC.
+### Ventajas 
+> - Funciona muy bien con un claro margen de separación. 
+> - Es eficaz en espacios de gran dimensión.
+>- Es eficaz en los casos en que el número de dimensiones es mayor que el número de muestras.
+> - Utiliza un subconjunto de puntos de entrenamiento en la función de decisión (llamados vectores de soporte), por lo que también es eficiente en la memoria.
+> <img src="https://www.learnopencv.com/wp-content/uploads/2018/07/svm-linearly-separable-data.png">
+
+### Desventajas
+> - No funciona bien cuando tenemos un gran conjunto de datos porque el tiempo de entrenamiento requerido es mayor
+> - Tampoco funciona muy bien cuando el conjunto de datos tiene más ruido, es decir, las clases de destino se superponen
+<img src="https://1.bp.blogspot.com/-CD6nja2DNDY/VgTft5YhWiI/AAAAAAAADEo/W7eTpexZ0fI/s1600/svm-predicted-classification-3-ring-data-resized-600.png">
+> - SVM no proporciona directamente estimaciones de probabilidad, sino que se calculan mediante una costosa validación cruzada de cinco veces. Está incluido en el método SVC relacionado de la biblioteca scikit-learn de Python.
+> <img src="https://i.stack.imgur.com/1fXzJ.png">
+<!-- END -->
 
 ### Resumen [RENE]
 > TODO: Tema
