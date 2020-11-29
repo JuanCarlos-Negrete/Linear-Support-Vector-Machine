@@ -34,7 +34,24 @@ Se llama «máquina» en español por la parte de «machine» learning. Los vect
 ![ScreenShot](https://github.com/SalmaFabel/IMG/blob/main/IMAGEN%20Linear%20Support%20Vector%20Machine.PNG)
 
 ### Datos de ejemplo - Regularizacion [FERNANDO]
-> TODO: Tema
+Imaginemos que tenemos dos clases de datos, la clase Azul y la clase Roja. Lo que deseamos hacer es trazar una línea que separe las 2 clases. De esta forma, cuando un punto nuevo llegue, podremos ver a cual de las 2 clases pertenece dependiendo de en qué lado de la línea se encuentre.
+
+<img src="https://i.imgur.com/1itSHRR.png">
+
+### Como no clasificar los datos.
+
+<img src="https://i.imgur.com/AE6FJ2H.png">
+
+<img src="https://i.imgur.com/lsPsIeF.png">
+
+### Forma óptima de clasificar los datos.
+
+Se busca maximizar el margen entre ambas clases, por lo que una línea que mejor distingue las 2 clases es preferible ya que las máquinas de vectores son técnicas de machine learning que encuentran la mejor separación posible entre las clases.
+
+<img src="https://i.imgur.com/i47Tr3c.png">
+
+### Regularización 
+En veces los datos tienen ruido por qué no están bien clasificados o por el nivel de complejidad de algunos puntos. En estos casos, se le dice al SVM que generalice esos pocos casos del conjunto.
 
 ### Truco del Kernel en SVM - Algunas aplicaciones
 El propocito principal del SVM es el formar el hiperplano que maximiza el margen de separación entre clases, sin embargo hay veces en las que no hay forma 
