@@ -74,8 +74,9 @@ Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprend
 > - No funciona bien cuando tenemos un gran conjunto de datos porque el tiempo de entrenamiento requerido es mayor
 > - Tampoco funciona muy bien cuando el conjunto de datos tiene más ruido, es decir, las clases de destino se superponen
 <img src="https://1.bp.blogspot.com/-CD6nja2DNDY/VgTft5YhWiI/AAAAAAAADEo/W7eTpexZ0fI/s1600/svm-predicted-classification-3-ring-data-resized-600.png">
->- SVM no proporciona directamente estimaciones de probabilidad, sino que se calculan mediante una costosa validación cruzada de cinco veces. Está incluido en el método SVC relacionado de la biblioteca scikit-learn de Python.
-> <img src="https://i.stack.imgur.com/1fXzJ.png">
+
+> - SVM no proporciona directamente estimaciones de probabilidad, sino que se calculan mediante una costosa validación cruzada de cinco veces. Está incluido en el método SVC relacionado de la biblioteca scikit-learn de Python.
+<img src="https://i.stack.imgur.com/1fXzJ.png">
 <!-- END -->
 
 ### Resumen [RENE]
