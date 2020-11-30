@@ -2,7 +2,8 @@
 
 ## Equipo #6:
 - 16210975 Luna Fuentes Fernando
-- 16212354 Hernandez Negrete Salma Fabel
+- 16212354 Hernández Negrete Salma Fabel
+- 15211900 Jiménez Diaz de Sandi René
 
 ### Descripción
 
@@ -15,7 +16,7 @@ Se puede usar para:
 - Clasificación multiclase
 - Regresión
 - Selección de variables
-- Identificacion de casos anóomalos (outliers)
+- Identificación de casos anómalos (outliers)
 - Clustering
 
 Un SVM construye un hiperplano o conjunto de hiperplanos en un espacio de dimensionalidad muy alta (o incluso infinita) que puede ser utilizado en problemas de clasificación o regresión. Una buena separación entre las clases permitirá una correcta clasificación.
@@ -32,11 +33,11 @@ Un SVM construye un hiperplano o conjunto de hiperplanos en un espacio de dimens
 
 #### ¿Por qué se llaman Máquinas de Vectores de Soporte?
 
-<p style="text-align: justify;">Se llama «máquina» en español por la parte de «machine» learning. Los vectores de soporte son los puntos que definen el margen máximo de separación del hiperplano que separa las clases. Se llaman vectores, en lugar de puntos, porque estos «puntos» tienen tantos elementos como dimensiones tenga nuestro espacio de entrada. Es decir, estos puntos multi-dimensionales se representan con con vector de n dimensiones.</p>
+<p style="text-align: justify;">Se llama «máquina» en español por la parte de «machine» learning. Los vectores de soporte son los puntos que definen el margen máximo de separación del hiperplano que separa las clases. Se llaman vectores, en lugar de puntos, porque estos «puntos» tienen tantos elementos como dimensiones tenga nuestro espacio de entrada. Es decir, estos puntos multidimensionales se representan con con vector de n dimensiones.</p>
 
 ![ScreenShot](https://github.com/SalmaFabel/IMG/blob/main/IMAGEN%20Linear%20Support%20Vector%20Machine.PNG)
 
-### Datos de ejemplo - Regularizacion [FERNANDO]
+### Datos de ejemplo - Regularización [FERNANDO]
 Imaginemos que tenemos dos clases de datos, la clase Azul y la clase Roja. Lo que deseamos hacer es trazar una línea que separe las 2 clases. De esta forma, cuando un punto nuevo llegue, podremos ver a cual de las 2 clases pertenece dependiendo de en qué lado de la línea se encuentre.
 
 <img src="https://i.imgur.com/1itSHRR.png">
@@ -57,22 +58,22 @@ Se busca maximizar el margen entre ambas clases, por lo que una línea que mejor
 En veces los datos tienen ruido por qué no están bien clasificados o por el nivel de complejidad de algunos puntos. En estos casos, se le dice al SVM que generalice esos pocos casos del conjunto.
 
 ### Truco del Kernel en SVM - Algunas aplicaciones
-El propocito principal del SVM es el formar el hiperplano que maximiza el margen de separación entre clases, sin embargo hay veces en las que no hay forma 
-de encontrar una hiperplano que permita separar dos clases. En estos casos decimos que las clases no son linealmente separables. Para resolver este problema 
+El propósito  principal del SVM es el formar el hiperplano que maximiza el margen de separación entre clases, sin embargo, hay veces en las que no hay forma 
+de encontrar un hiperplano que permita separar dos clases. En estos casos decimos que las clases no son linealmente separables. Para resolver este problema 
 podemos usar el truco del kernel.
 
 El truco del kernel consiste en inventar una dimensión nueva en la que podamos encontrar un hiperplano para separar las clases.
 
 Algunas aplicaciones de las máquinas de vectores de soporte
 Las máquinas de vectores de soporte eran muy utilizadas antes de la era del aprendizaje profundo. Para muchas aplicaciones se prefería el uso de SVM en lugar 
-de redes neuronales. La razón era que las matemáticas de los SVM se entiende muy bien y la propiedad de obtener el margen de separación máximo era muy atractivo. 
+de redes neuronales. La razón era que las matemáticas de los SVM se entienden muy bien y la propiedad de obtener el margen de separación máximo era muy atractivo. 
 
 Algunos casos de éxito de las máquinas de vectores de soporte son:
 
 -Reconocimiento óptico de caracteres
-    -El OCR(Reconocimiento optico de caracteres) es una tecnología transversal, aplicable en distintos ámbitos y sectores para la digitalización de formularios, 
+    -El OCR(Reconocimiento óptico de caracteres) es una tecnología transversal, aplicable en distintos ámbitos y sectores para la digitalización de formularios, 
      documentos administrativos, informes, etc., ya que las ventajas que ofrece son comunes para todos ellos.
-     En el sector de la cultura, por ejemplo en el ámbito de la preservación del patrimonio, el OCR se aplica principalmente en los procesos de digitalización 
+     En el sector de la cultura, por ejemplo, en el ámbito de la preservación del patrimonio, el OCR se aplica principalmente en los procesos de digitalización 
      de documentos históricos, en soporte papel o microformas.
 -Detección de caras para que las cámaras digitales enfoquen correctamente
 -Filtros de spam para correo electrónico
@@ -95,19 +96,18 @@ Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprend
 > - Tampoco funciona muy bien cuando el conjunto de datos tiene más ruido, es decir, las clases de destino se superponen
 <img src="https://1.bp.blogspot.com/-CD6nja2DNDY/VgTft5YhWiI/AAAAAAAADEo/W7eTpexZ0fI/s1600/svm-predicted-classification-3-ring-data-resized-600.png">
 
-> - SVM no proporciona directamente estimaciones de probabilidad, sino que se calculan mediante una costosa validación cruzada de cinco veces. Está incluido en el método SVC relacionado de la biblioteca scikit-learn de Python.
+> - SVM no proporciona directamente estimaciones de probabilidad, sino que se calculan mediante una costosa validación cruzada cinco veces. Está incluido en el método SVC relacionado de la biblioteca scikit-learn de Python.
 <img src="https://i.stack.imgur.com/1fXzJ.png">
 <!-- END -->
 
 ### Resumen [RENE]
-> TODO: Tema
-
+> Finalmente, podemos decir que el objetivo principal es segregar el conjunto de datos de la mejor manera posible y que se tiene como objetivo seleccionar un hiperplano con el máximo margen posible entre vectores de soporte en el conjunto de datos dado.
 
 ### Fuentes de Información
 
->Eduardo Morales, Jesus Gonzalez, Hugo Jair Escalante. (2017). Máquinas de Soporte Vectorial. 26/11/2020, de INAOE Sitio web: https://ccc.inaoep.mx/~emorales/Cursos/NvoAprend/Acetatos/svm2017.pdf
+>Eduardo Morales, Jesús González, Hugo Jair Escalante. (2017). Máquinas de Soporte Vectorial. 26/11/2020, de INAOE Sitio web: https://ccc.inaoep.mx/~emorales/Cursos/NvoAprend/Acetatos/svm2017.pdf
 
->Jose Martinez Heras. (28/05/2019). Máquinas de Vectores de Soporte (SVM). 26/11/2020, de iartificial.net Sitio web: https://www.iartificial.net/maquinas-de-vectores-de-soporte-svm/
+>José Martínez Heras. (28/05/2019). Máquinas de Vectores de Soporte (SVM). 26/11/2020, de iartificial.net Sitio web: https://www.iartificial.net/maquinas-de-vectores-de-soporte-svm/
 
 >---. (2020). Máquinas de vectores de soporte. 26/11/2020, de Wikipedia Sitio web: https://es.wikipedia.org/wiki/M%C3%A1quinas_de_vectores_de_soporte
 
