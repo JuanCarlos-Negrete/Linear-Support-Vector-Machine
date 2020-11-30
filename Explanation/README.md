@@ -101,7 +101,7 @@ Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprend
 <!-- END -->
 
 ### Resumen [RENE]
-> Finalmente, podemos decir que el objetivo principal es segregar el conjunto de datos de la mejor manera posible y que se tiene como objetivo seleccionar un hiperplano con el máximo margen posible entre vectores de soporte en el conjunto de datos dado.
+Finalmente, podemos decir que el objetivo principal es segregar el conjunto de datos de la mejor manera posible y que se tiene como objetivo seleccionar un hiperplano con el máximo margen posible entre vectores de soporte en el conjunto de datos dado, siendo los vectores que definen el margen de separación los vectores de soporte. En el caso de contar con clases no separables, se puede utilizar el truco del kernel para añadir una nueva dimensión que permita realizar dicha separación.
 
 ### Fuentes de Información
 
