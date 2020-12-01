@@ -83,7 +83,7 @@ Algunos casos de éxito de las máquinas de vectores de soporte son:
 Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprendizaje y generalización que los SVM.
 
 <!-- START CRUZ -->
-### Ventajas y desventajas de SVC.
+### Ventajas y desventajas de SVC. [CRUZ IBARRA]
 ### Ventajas 
 > - Funciona muy bien con un claro margen de separación. 
 > - Es eficaz en espacios de gran dimensión.
