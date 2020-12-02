@@ -59,7 +59,10 @@ podemos usar el truco del kernel.
 
 El truco del kernel consiste en inventar una dimensión nueva en la que podamos encontrar un hiperplano para separar las clases.
 
+<img src="https://www.iartificial.net/wp-content/uploads/2019/04/SVM-kernel.png">
+
 Algunas aplicaciones de las máquinas de vectores de soporte
+
 Las máquinas de vectores de soporte eran muy utilizadas antes de la era del aprendizaje profundo. Para muchas aplicaciones se prefería el uso de SVM en lugar 
 de redes neuronales. La razón era que las matemáticas de los SVM se entienden muy bien y la propiedad de obtener el margen de separación máximo era muy atractivo. 
 
@@ -70,8 +73,11 @@ Algunos casos de éxito de las máquinas de vectores de soporte son:
      documentos administrativos, informes, etc., ya que las ventajas que ofrece son comunes para todos ellos.
      En el sector de la cultura, por ejemplo, en el ámbito de la preservación del patrimonio, el OCR se aplica principalmente en los procesos de digitalización 
      de documentos históricos, en soporte papel o microformas.
+     
 -Detección de caras para que las cámaras digitales enfoquen correctamente
+
 -Filtros de spam para correo electrónico
+
 -Reconocimiento de imágenes a bordo de satélites 
     -Ayuda a saber qué partes de una imagen tienen nubes, tierra, agua, hielo, etc.
 
