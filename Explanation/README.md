@@ -69,6 +69,7 @@ de redes neuronales. La razón era que las matemáticas de los SVM se entienden 
 Algunos casos de éxito de las máquinas de vectores de soporte son:
 
 -Reconocimiento óptico de caracteres
+
     -El OCR(Reconocimiento óptico de caracteres) es una tecnología transversal, aplicable en distintos ámbitos y sectores para la digitalización de formularios, 
      documentos administrativos, informes, etc., ya que las ventajas que ofrece son comunes para todos ellos.
      En el sector de la cultura, por ejemplo, en el ámbito de la preservación del patrimonio, el OCR se aplica principalmente en los procesos de digitalización 
@@ -80,8 +81,6 @@ Algunos casos de éxito de las máquinas de vectores de soporte son:
 
 -Reconocimiento de imágenes a bordo de satélites 
     -Ayuda a saber qué partes de una imagen tienen nubes, tierra, agua, hielo, etc.
-
-Actualmente, las redes neuronales profundas tienen una mayor capacidad de aprendizaje y generalización que los SVM.
 
 <!-- START CRUZ -->
 ### Ventajas y desventajas de SVC. [CRUZ IBARRA]
